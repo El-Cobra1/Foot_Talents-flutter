@@ -143,7 +143,7 @@ List<Team> teams = [
   ),
   Team(
     id: "4",
-    name: "Panthers",
+    name: "Panthers2",
     imageUrl: "https://i.ibb.co/qp4GqHF/HD-wallpaper-cobra-kai-logo.jpg",
     country: "Brazil",
     city: "Rio de Janeiro",
