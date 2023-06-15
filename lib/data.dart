@@ -5,7 +5,7 @@ import 'Models/team.dart';
 List<Player> players = [
   Player(
     id: "1",
-    firstName: "Obay",
+    firstName: "Obayzft",
     lastName: "Hafez",
     imageUrl:
         "https://i.ibb.co/Ry3DMYR/Whats-App-Image-2023-06-05-at-16-17-08.jpg",
