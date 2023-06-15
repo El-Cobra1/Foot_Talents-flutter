@@ -6,7 +6,7 @@ class TeamStats extends Team{
   int won;
   int loss;
   int GF;// goal for
-  int GA;// goal againstt
+  int GA;// goal against
 
   TeamStats({required super.id, required super.name, required super.imageUrl, required super.country, required super.city, required super.createDate, required super.beforePointScore, required super.currentPointScore, required super.status});
 
