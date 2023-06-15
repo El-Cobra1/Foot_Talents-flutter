@@ -7,7 +7,7 @@ class Team {
   final String createDate;
   final String beforePointScore;
   final String currentPointScore;
-  final String status;
+  final String status; //LAST MATCH
 
   Team({
     required this.id,

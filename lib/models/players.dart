@@ -13,7 +13,6 @@ class Player {
   final String position;
   final String secondaryPosition;
   final String foot;
-  final bool active;
 
   Player({
     required this.id,
@@ -29,7 +28,6 @@ class Player {
     required this.position,
     required this.secondaryPosition,
     required this.foot,
-    required this.active,
   });
 
   factory Player.fromJson(Map<String,dynamic> json) => Player(
@@ -46,6 +44,5 @@ class Player {
       position: json['position'],
       secondaryPosition: json['secondaryPosition'],
       foot: json['foot'],
-      active: json['active'],
     );
 }

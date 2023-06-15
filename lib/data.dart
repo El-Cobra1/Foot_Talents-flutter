@@ -18,7 +18,6 @@ List<Player> players = [
     position: "Forward",
     secondaryPosition: "Midfielder",
     foot: "Right",
-    active: true,
   ),
   Player(
     id: "2",
@@ -35,7 +34,6 @@ List<Player> players = [
     position: "Defender",
     secondaryPosition: "Midfielder",
     foot: "Right",
-    active: true,
   ),
   Player(
     id: "3",
@@ -52,7 +50,6 @@ List<Player> players = [
     position: "Midfielder",
     secondaryPosition: "Forward",
     foot: "Left",
-    active: true,
   ),
   Player(
     id: "4",
@@ -69,7 +66,6 @@ List<Player> players = [
     position: "Forward",
     secondaryPosition: "Midfielder",
     foot: "Right",
-    active: false,
   ),
   Player(
     id: "5",
@@ -86,7 +82,6 @@ List<Player> players = [
     position: "Defender",
     secondaryPosition: "Midfielder",
     foot: "Right",
-    active: true,
   ),
   Player(
     id: "6",
@@ -103,10 +98,11 @@ List<Player> players = [
     position: "Midfielder",
     secondaryPosition: "Forward",
     foot: "Right",
-    active: true,
   ),
 ];
 
+List<Team> top5teams = [
+];
 List<Team> teams = [
   Team(
     id: "1",
@@ -143,7 +139,7 @@ List<Team> teams = [
   ),
   Team(
     id: "4",
-    name: "Panthers2",
+    name: "Panthers",
     imageUrl: "https://i.ibb.co/qp4GqHF/HD-wallpaper-cobra-kai-logo.jpg",
     country: "Brazil",
     city: "Rio de Janeiro",
@@ -207,5 +203,7 @@ List<Team> teams = [
     currentPointScore: "650",
     status: "2022-04-10",
   ),
+
 ];
+
 
