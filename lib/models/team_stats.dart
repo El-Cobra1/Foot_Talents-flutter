@@ -1,13 +1,26 @@
 import 'package:foottalents/Models/team.dart';
 
-class TeamStats extends Team{
-
+class TeamStats {
   final int playedMatches;
   final int won;
   final int loss;
-  final int GF;// goal for
-  final int GA;// goal against
+  final int GF; // goal for
+  final int GA; // goal against
+  final Team? team;
 
-  TeamStats(this.playedMatches, this.won, this.loss, this.GF, this.GA, {required super.id, required super.name, required super.imageUrl, required super.country, required super.city, required super.createDate, required super.beforePointScore, required super.currentPointScore, required super.status});
+  TeamStats(
+      {required this.playedMatches,
+      required this.won,
+      required this.loss,
+      required this.GF,
+      required this.GA,
+      this.team});
 
+  factory TeamStats.fromJson(Map<String, dynamic> json) => TeamStats(
+        playedMatches: json[''],
+        won: json[''],
+        loss: json[''],
+        GF: json[''],
+        GA: json[''],
+      );
 }

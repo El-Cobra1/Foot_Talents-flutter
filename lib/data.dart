@@ -1,6 +1,7 @@
 import 'package:foottalents/Models/players.dart';
 
 import 'Models/team.dart';
+import 'models/team_stats.dart';
 
 List<Player> players = [
   Player(
@@ -101,8 +102,7 @@ List<Player> players = [
   ),
 ];
 
-List<Team> top5teams = [
-];
+List<Team> top5teams = [];
 List<Team> teams = [
   Team(
     id: "1",
@@ -118,7 +118,7 @@ List<Team> teams = [
   Team(
     id: "2",
     name: "Tigers",
-    imageUrl: "https://i.ibb.co/qp4GqHF/HD-wallpaper-cobra-kai-logo.jpg",
+    imageUrl: "https://askastrology.com/wp-content/uploads/2018/10/HOR_108_Tiger.jpg",
     country: "USA",
     city: "New York",
     createDate: "2019-10-10",
@@ -129,7 +129,7 @@ List<Team> teams = [
   Team(
     id: "3",
     name: "Dragons",
-    imageUrl: "https://i.ibb.co/qp4GqHF/HD-wallpaper-cobra-kai-logo.jpg",
+    imageUrl: "https://c8.alamy.com/comp/J3PA47/chinese-dragon-tattoo-design-J3PA47.jpg",
     country: "China",
     city: "Beijing",
     createDate: "2018-07-15",
@@ -203,7 +203,48 @@ List<Team> teams = [
     currentPointScore: "650",
     status: "2022-04-10",
   ),
-
 ];
 
 
+List<TeamStats> top5Teams = [
+  TeamStats(
+    team: teams[0],
+    playedMatches: 20,
+    won: 15,
+    loss: 5,
+    GF: 40,
+    GA: 20,
+  ),
+  TeamStats(
+    team: teams[1],
+    playedMatches: 18,
+    won: 12,
+    loss: 6,
+    GF: 35,
+    GA: 18,
+  ),
+  TeamStats(
+    team: teams[2],
+    playedMatches: 22,
+    won: 17,
+    loss: 5,
+    GF: 50,
+    GA: 15,
+  ),
+  TeamStats(
+    team: teams[3],
+    playedMatches: 21,
+    won: 13,
+    loss: 8,
+    GF: 45,
+    GA: 25,
+  ),
+  TeamStats(
+    team: teams[4],
+    playedMatches: 19,
+    won: 16,
+    loss: 3,
+    GF: 55,
+    GA: 10,
+  ),
+];
